@@ -1,0 +1,57 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* UNIVERSAL CSS */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.button-1 {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    background: #E55473;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Header Styles */
+
+header {
+    max-width: 1920px;
+    max-height: 850px;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 50px 240px 0;
+    display: flex;
+}
+
+.header-content {
+    max-width: 700px;
+    padding-top: 100px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.header-description {
+    margin: 30px 0;
+    max-width: 630px;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+/* Featured Section */
