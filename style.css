@@ -106,7 +106,7 @@ header {
     position: relative;
 }
 
-.image-box img{
+.image-box img {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -205,4 +205,123 @@ header {
     line-height: 30px;
     /* 166.667% */
     margin-bottom: 30px;
+}
+
+/* instagram */
+.instagram {
+    margin: 128px 0;
+}
+
+.instagram-content {
+    max-width: 594px;
+    margin: 0 auto 48px;
+
+}
+
+.instagram-content h1 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.instagram-content p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.instagram-post {
+    margin: 0 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* news letter */
+.news-letter {
+    margin: 128px 230px;
+    height: auto;
+    background: url(Flower-Asset/Rectangle\ 9.png);
+    background-size: cover;
+
+}
+
+.news-letter-content {
+    padding: 120px 280px;
+}
+
+.news-letter-text {
+    text-align: center;
+}
+
+.mail {
+    display: flex;
+    margin-top: 48px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.news-letter-text h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.news-letter-text p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.mail input[type="email"] {
+    padding: 20px;
+    width: 72%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* footer */
+
+footer {
+    background: #111010;
+    padding: 128px;
+}
+
+.footer-text{
+    text-align: center;
+}
+
+.footer-text h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-text h1 span {
+    color: #E55473;
+}
+
+.footer-text h6 {
+    max-width: 625px;
+    margin: 25px auto 30px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.footer-text p {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
