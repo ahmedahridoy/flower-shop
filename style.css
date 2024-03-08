@@ -27,7 +27,7 @@ header {
     max-width: 1920px;
     max-height: 850px;
     background: rgba(229, 84, 115, 0.10);
-    padding: 50px 240px 0;
+    padding: 50px 230px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -133,4 +133,35 @@ header {
     line-height: 35px;
     /* 145.833% */
     text-decoration-line: underline;
+}
+
+/* Services css */
+.service {
+    margin: 128px 0;
+    padding: 0 230px;
+}
+
+.service-container {
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.services {
+    text-align: center;
+}
+
+.services img {
+    margin: 0 auto;
+}
+
+.services h3 {
+    margin-top: 24px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
 }
