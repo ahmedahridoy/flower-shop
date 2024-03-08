@@ -106,7 +106,7 @@ header {
     position: relative;
 }
 
-.image-box {
+.image-box img{
     position: absolute;
     bottom: 0;
     left: 50%;
