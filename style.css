@@ -25,7 +25,6 @@ body {
 
 header {
     max-width: 1920px;
-    max-height: 850px;
     background: rgba(229, 84, 115, 0.10);
     padding: 50px 230px 0;
     display: flex;
@@ -65,8 +64,6 @@ header {
     margin: 178px 0 128px;
     padding: 0 230px;
 }
-
-/* .featured-title{} */
 
 .featured h3 {
     color: #272727;
@@ -296,7 +293,7 @@ footer {
     padding: 128px;
 }
 
-.footer-text{
+.footer-text {
     text-align: center;
 }
 
@@ -324,4 +321,149 @@ footer {
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
     font-weight: 400;
+}
+
+.hide {
+    display: none;
+}
+
+/* Styles for smaller screens here */
+
+@media (max-width: 576px) {
+
+    /* header css */
+    header {
+        padding: 20px 20px 0;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .header-content {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .header-content .button-1 {
+        margin: 0 auto;
+    }
+
+    .header-title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .header-description {
+        width: 100%;
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    .header-image {
+        padding-top: 20px;
+    }
+
+    .header-image img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* featured css */
+    .featured {
+        margin: 0;
+        height: auto;
+        padding: 20px;
+    }
+
+    .featured h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .featured p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .flower-container {
+        margin: 0;
+        max-height: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .image-box {
+        width: 100%;
+    }
+
+    /* services css */
+.service{
+    margin: 0;
+    padding: 20px;
+}
+    .service-container{
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    /* hot deals css */
+
+    .hot-deals{
+        max-height: none;
+        padding: 20px;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .hot-deals-content{
+        width: 100%;
+    }
+
+    .hot-deals-content h1{
+        font-size: 30px;
+    }
+
+    /* instagram css */
+    .instagram{
+        margin: 0;
+        padding: 20px;
+    }
+    .instagram-post{
+        margin: 0;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    /* news-letter css */
+
+    .news-letter{
+        margin: 0;
+        background-position:top  ;
+    }
+
+    .news-letter-content{
+        padding: 20px;
+    }
+
+    .mail{
+        flex-direction: column;
+        gap: 10px;
+    }
+    /* footer css */
+    footer{
+        padding: 20px;
+    }
+
+    .footer-text h1 {
+        font-size: 30px;
+    }
+
+    .footer-text h6{
+        font-size: 16px;
+    }
+
+    .footer-text p{
+        font-size: 12px;
+    }
 }
